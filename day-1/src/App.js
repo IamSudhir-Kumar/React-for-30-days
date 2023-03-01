@@ -5,9 +5,9 @@ const App = () => {
 let date = new Date().toLocaleDateString();
 let time = new Date().toLocaleTimeString();
 
-const [ctime, setCtime] = useState(time); //S
+const [ctime, setCtime] = useState(time); //Setting time 
 
-const UpdateTime = () => {
+const UpdateTime = () => {                 // Update time automatically by using interval
   time = new Date().toLocaleTimeString();
   setCtime(time);
 };
