@@ -1,0 +1,47 @@
+* , *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(270deg, #664524, #b79d83, #d06123);
+    background-size: 600% 600%;
+
+    -webkit-animation: calculator 21s ease infinite;
+    -moz-animation: calculator 21s ease infinite;
+    animation: calculator 21s ease infinite;
+}
+
+/*https://www.gradient-animator.com/*/
+
+@-webkit-keyframes calculator {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes calculator {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes calculator {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.calculator-grid {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(4, 6rem) ;
+    grid-template-rows:minmax(7rem, auto) repeat(5, 6rem);
+}
+
+.span-two {
+    grid-column: span 2;
+}
+.output {
+    grid-column: 1 / -1;
+    background-color: black;
+    display: flex;
+}
