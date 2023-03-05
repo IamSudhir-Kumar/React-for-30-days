@@ -53,3 +53,44 @@ h1{
     background-repeat: no-repeat;
     cursor: pointer;
 }
+.google {background-image: url("../icons/google.png");}
+.facebook {background-image: url("../icons/facebook.png");}
+
+input {
+    border: none;
+    background-color: rgb(207, 167, 244);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+
+input:focus {
+    outline-color: blueviolet;
+} 
+
+.login-btn {
+    width: 40%;
+    height: 3em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    transform: scale(1.25);;
+}
+
+.text {
+    position: relative;
+    bottom: -2em;
+
+}
+.hide {
+    display: none;
+}
