@@ -2,11 +2,7 @@
 
 <h2>A 30 day challenge of react 
 from basics of react to react Three fiber (final goal)</h2>
-<style>
-ul {
-color: red;
-}
-</style>
+
 <ul>
 <li>Day -1 = Sipmle Clock</li>
 <li>Day -2 = Todo list (yet to be updated)</li>
