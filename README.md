@@ -1,8 +1,9 @@
+![MasterHead](https://media.tenor.com/rmNGGmy9nKgAAAAd/project-app.gif)
 # React-for-30-days
 
 <h2>A 30 day challenge of react 
 from basics of react to react Three fiber (final goal)</h2>
-![MasterHead](https://media.tenor.com/rmNGGmy9nKgAAAAd/project-app.gif)
+
 <ul>
 <li>Day -1 = Sipmle Clock</li>
 <li>Day -2 = Todo list (yet to be updated)</li>
