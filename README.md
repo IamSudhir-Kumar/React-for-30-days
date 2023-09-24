@@ -12,4 +12,7 @@ from basics of react to react Three fiber (final goal)</h2>
 <li>Day -5 = Simple login Form </li> 
 <li>Day -6 = Use of Chart JS with React</li>
 <li>Day -7 = Cube with React Three Fiber</li>
+<li>Day -8 = making landing page using Tailwind CSS</li>
+<li>Day -9 = Background changer</li>
+<li>Day -10 = Password Generator</li>
 </ul>
