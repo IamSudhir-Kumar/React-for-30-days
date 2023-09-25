@@ -15,4 +15,5 @@ from basics of react to react Three fiber (final goal)</h2>
 <li>Day -8 = making landing page using Tailwind CSS</li>
 <li>Day -9 = Background changer</li>
 <li>Day -10 = Password Generator</li>
+<li>Day-11 = Currency converter</li>
 </ul>
