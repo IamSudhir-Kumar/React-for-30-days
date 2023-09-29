@@ -16,4 +16,5 @@ from basics of react to react Three fiber (final goal)</h2>
 <li>Day -9 = Background changer</li>
 <li>Day -10 = Password Generator</li>
 <li>Day-11 = Currency converter</li>
+<li>Day-12 = Using react as CDN </li>
 </ul>
