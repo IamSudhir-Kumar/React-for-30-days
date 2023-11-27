@@ -1,10 +1,11 @@
 import React from 'react'
+import Problem1 from './problems/Problem1'
 
 function UseEffectPractice() {
   return (
-    <h1>
-        user effect
-    </h1>
+    <>
+    <Problem1 />
+    </>
   )
 }
 
