@@ -10,12 +10,13 @@ function App() {
       <ul>
         <li><Link to = "/">ghar</Link></li>
         <li><Link to = "/books">books</Link></li>
-        <li></li>
+        <li><Link to = "/books/1">Books 1github</Link></li>
       </ul>
     </nav>
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/books" element={<Books/>}/>
+      <Route path="/books/:id" element = {<Books/>} />
       <Route />
     </Routes>
     </>
